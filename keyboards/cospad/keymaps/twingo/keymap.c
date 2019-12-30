@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |   0     | .  |    |
  * `-------------------'
  */
-  [_BL] = LAYOUT_numpad_6x4(
+  [_BL] = LAYOUT_mod_ortho_6x4(
     KC_ESC,   KC_NLCK,  MO(_FL),   KC_BSPC, \
     KC_F13,   KC_PSLS,  KC_PAST,   KC_PMNS, \
     KC_P7,    KC_P8,    KC_P9,     KC_PPLS, \
@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |         |RST |    |
  * `-------------------'
  */
-  [_FL] = LAYOUT_numpad_6x4(
+  [_FL] = LAYOUT_mod_ortho_6x4(
     RGB_TOG,  _______,  _______,   _______, \
     RGB_MOD,  RGB_M_P,  BL_TOGG,   _______, \
     RGB_HUD,  RGB_HUI,  BL_ON,              \
