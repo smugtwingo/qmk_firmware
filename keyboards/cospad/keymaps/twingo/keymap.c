@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_FL] = LAYOUT_mod_ortho_6x4(
     RGB_TOG,  _______,  _______,   _______, \
     RGB_MOD,  RGB_M_P,  BL_TOGG,   _______, \
-    RGB_HUD,  RGB_HUI,  BL_ON,              \
+    RGB_HUD,  RGB_HUI,  BL_ON,     _______, \
     RGB_SAD,  RGB_SAI,  BL_OFF,    _______, \
     RGB_VAD,  RGB_VAI,  BL_STEP,            \
     _______,            RESET,     _______
