@@ -25,7 +25,15 @@
   #define RGBLIGHT_HUE_STEP 8
   #define RGBLIGHT_SAT_STEP 8
   #define RGBLIGHT_VAL_STEP 8
+  #define RGBLIGHT_SLEEP
 #endif
+
+#define ENCODER_RESOLUTION 2
+#define TAPPING_TERM 200
+
+#define EE_HANDS
+
+#define TAP_CODE_DELAY 10
 
 // If you are using an Elite C rev3 on the slave side, uncomment the lines below:
 // #define SPLIT_USB_DETECT
